@@ -1,13 +1,13 @@
 # Multichannel Serial Console
 
 A Vue 3 / TypeScript Web Serial console, hosted at
-https://chpaxson.github.io/multichannel-serial-console/. Run it locally with
+https://chpaxson.com/multichannel-serial-console/. Run it locally with
 `npm install` and `npm run dev`; `npm test` runs the regression tests and
 `npm run build` type-checks and builds to `dist/`. Deployment to GitHub Pages
 (including the Windows Telnet gateway build) runs from `.github/workflows/pages.yml`;
 set **Settings → Pages → Source** to **GitHub Actions**.
 
-The **Home** link returns to https://chpaxson.github.io/tools.
+The **Home** link returns to https://chpaxson.com/tools.
 
 ## Usage
 
@@ -54,11 +54,11 @@ gateway; the browser keeps the token only in memory and requires it again after
 reload. **Lock gateway** disconnects this page's Telnet sessions. Stop a manually
 run gateway with Ctrl+C.
 
-The default allowed origin is `https://chpaxson.github.io`. To use another
+The default allowed origin is `https://chpaxson.com`. To use another
 origin or local development, specify every allowed origin during initial setup:
 
 ```powershell
-.\telnet-gateway.exe init --origin https://chpaxson.github.io --origin http://127.0.0.1:5173
+.\telnet-gateway.exe init --origin https://chpaxson.com --origin http://127.0.0.1:5173
 ```
 
 Origins must match the browser address exactly, without a trailing slash; HTTP

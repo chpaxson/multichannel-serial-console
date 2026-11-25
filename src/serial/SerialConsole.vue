@@ -174,7 +174,7 @@ onBeforeUnmount(() => {
   <header class="topbar">
     <div><span class="eyebrow">HARDWARE / WEB SERIAL</span><h1>Web Serial Console</h1></div>
     <div class="topbar-controls">
-      <a class="home-button" href="https://chpaxson.github.io/tools">Home</a>
+      <a class="home-button" href="https://chpaxson.com/tools">Home</a>
       <button :disabled="narrowScreen" :aria-pressed="tabbed"
         :title="narrowScreen ? 'Tabs are automatic on narrow screens' : 'Switch between tabs and columns'"
         @click="settings.tabbedView = !settings.tabbedView">Tabbed view</button>

@@ -20,7 +20,7 @@ from websockets.asyncio.server import serve
 from websockets.exceptions import ConnectionClosed
 
 LOGGER = logging.getLogger("telnet-gateway")
-DEFAULT_ORIGIN = "https://chpaxson.github.io"
+DEFAULT_ORIGIN = "https://chpaxson.com"
 PORT = 8765
 MAX_TARGETS = 100
 SHORTCUT_NAME = "Serial Console Telnet Gateway.lnk"
